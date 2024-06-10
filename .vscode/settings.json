@@ -1,0 +1,14 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "cygwin_bash": {
+            "path": "E:\\software\\cygwin\\install_path\\bin\\bash.exe",
+            "args": ["--login","-i"],
+            "env": {"CHERE_INVOKING": "1"}  // 切换到当前工作目录
+        },
+        "cygwin_zsh": {
+            "path": "E:\\software\\cygwin\\install_path\\bin\\zsh.exe",
+            "args": ["--login","-i"],
+            "env": {"CHERE_INVOKING": "1"}  // 切换到当前工作目录
+        }
+    },
+}
